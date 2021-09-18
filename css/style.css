@@ -119,6 +119,7 @@ header {
         margin-bottom: 40px;
         font-family: "Azeret Mono", monospace; }
       header .hero-section .about-section .button-links a {
+        margin-right: 15px;
         color: #c2c2c2;
         border: 1px solid #c2c2c2;
         padding: 10px 20px;
