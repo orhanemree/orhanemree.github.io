@@ -88,7 +88,7 @@ header {
         header .hero-section .profile-pic {
           width: 250px;
           height: 250px; } }
-      @media screen and (max-width: 350px) {
+      @media screen and (max-width: 360px) {
         header .hero-section .profile-pic {
           width: 200px;
           height: 200px; } }
@@ -109,7 +109,7 @@ header {
           header .hero-section .social-icons .social-icon {
             width: 25px;
             height: 25px; } }
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
           header .hero-section .social-icons .social-icon {
             width: 20px;
             height: 20px; } }
@@ -126,7 +126,7 @@ header {
         header .hero-section .about-section {
           font-size: 18px;
           text-align: center; } }
-      @media screen and (max-width: 350px) {
+      @media screen and (max-width: 36px) {
         header .hero-section .about-section {
           font-size: 15px; } }
       header .hero-section .about-section .about {
@@ -152,7 +152,7 @@ header {
           header .hero-section .about-section .button-links a {
             padding: 7px 17px;
             font-size: 14px; } }
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
           header .hero-section .about-section .button-links a {
             padding: 5px 15px;
             font-size: 11px;
@@ -199,7 +199,7 @@ header {
         @media screen and (max-width: 680px) {
           .grid-section .grid-1 .grid-item img {
             width: 400px; } }
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
           .grid-section .grid-1 .grid-item img {
             width: 220px; } }
   .grid-section .grid-2 {
@@ -265,7 +265,7 @@ header {
         font-size: 30px;
         margin: 20px 0;
         font-weight: bold; }
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
           .grid-section .grid-item a.project span.name {
             font-size: 25px; } }
       .grid-section .grid-item a.project span.link {
@@ -275,7 +275,7 @@ header {
       .grid-section .grid-item a.project span.description {
         font-size: 18px;
         margin-bottom: 120px; }
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
           .grid-section .grid-item a.project span.description {
             font-size: 15px; } }
     .grid-section .grid-item a.v-github {
@@ -306,7 +306,7 @@ header {
       @media screen and (max-width: 680px) {
         .grid-section .grid-item a.v-github {
           border: 1px solid #2b4f5f; } }
-      @media screen and (max-width: 350px) {
+      @media screen and (max-width: 360px) {
         .grid-section .grid-item a.v-github {
           font-size: 10px; } }
 

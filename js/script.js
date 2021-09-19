@@ -70,5 +70,3 @@ langSelector.addEventListener("change", () => {
         localStorage.setItem("language", "EN");
     }
 });
-
-document.querySelector(".grid-2 .grid-item:last-child").innerHTML = screen.width + "px";
