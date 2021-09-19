@@ -1,4 +1,4 @@
-console.log("script.js loaded successfully");
+console.log("%cscript.js loaded successfully", "color: green;");
 
 
 // changing the language
@@ -70,3 +70,5 @@ langSelector.addEventListener("change", () => {
         localStorage.setItem("language", "EN");
     }
 });
+
+document.querySelector(".grid-2 .grid-item:last-child").innerHTML = screen.width + "px";
