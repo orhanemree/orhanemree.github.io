@@ -99,6 +99,10 @@ header{
                 width: 250px;
                 height: 250px;
             }
+            @media screen and (max-width: 320px){
+                width: 200px;
+                height: 200px;
+            }
         }
         .social-icons{
             display: flex;
@@ -117,6 +121,10 @@ header{
                     width: 25px;
                     height: 25px;
                 }
+                @media screen and (max-width: 320px){
+                    width: 20px;
+                    height: 20px;
+                }
                 &:hover{
                     opacity: .7;
                 }
@@ -132,6 +140,9 @@ header{
             @media screen and (max-width: 680px){
                 font-size: 18px;
                 text-align: center;
+            }
+            @media screen and (max-width: 320px){
+                font-size: 15px;
             }
             .about{
                 line-height: 40px;
@@ -157,6 +168,11 @@ header{
                     @media screen and (max-width: 970px){
                         padding: 7px 17px;
                         font-size: 14px;
+                    }
+                    @media screen and (max-width: 320px){
+                        padding: 5px 15px;
+                        font-size: 12px;
+                        margin-right: 10px;
                     }
                     &:hover{
                         background-color: $color;
@@ -207,6 +223,9 @@ header{
                 }
                 @media screen and (max-width: 680px){
                     width: 400px;
+                }
+                @media screen and (max-width: 320px){
+                    width: 300px;
                 }
             }
         }
@@ -281,6 +300,9 @@ header{
                 font-size: 30px;
                 margin: 20px 0;
                 font-weight: bold;
+                @media screen and (max-width: 320px){
+                    font-size: 25px;
+                }
             }
             span.link{
                 font-size: 12px;
@@ -290,6 +312,9 @@ header{
             span.description{
                 font-size: 18px;
                 margin-bottom: 120px;
+                @media screen and (max-width: 320px){
+                    font-size: 15px;
+                }
             }
         }
         a.v-github{
@@ -320,6 +345,9 @@ header{
             }
             @media screen and (max-width: 680px){
                 border: 1px solid #2b4f5f;
+            }
+            @media screen and (max-width: 320px){
+                font-size: 10px;
             }
         }
         // Project Cards End
