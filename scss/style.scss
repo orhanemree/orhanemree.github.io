@@ -171,8 +171,8 @@ header{
                     }
                     @media screen and (max-width: 350px){
                         padding: 5px 15px;
-                        font-size: 12px;
-                        margin-right: 10px;
+                        font-size: 11px;
+                        margin-right: 0;
                     }
                     &:hover{
                         background-color: $color;
@@ -217,7 +217,7 @@ header{
             overflow: hidden;
             background: none;
             img{
-                // width: 100%;
+                user-select: none;
                 @media screen and (max-width: 970px){
                     width: 450px;
                 }
@@ -225,7 +225,7 @@ header{
                     width: 400px;
                 }
                 @media screen and (max-width: 350px){
-                    width: 270px;
+                    width: 220px;
                 }
             }
         }

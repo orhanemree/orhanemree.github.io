@@ -155,8 +155,8 @@ header {
         @media screen and (max-width: 350px) {
           header .hero-section .about-section .button-links a {
             padding: 5px 15px;
-            font-size: 12px;
-            margin-right: 10px; } }
+            font-size: 11px;
+            margin-right: 0; } }
         header .hero-section .about-section .button-links a:hover {
           background-color: #c2c2c2;
           color: #000; }
@@ -191,15 +191,17 @@ header {
     .grid-section .grid-1 .grid-item {
       overflow: hidden;
       background: none; }
-      @media screen and (max-width: 970px) {
-        .grid-section .grid-1 .grid-item img {
-          width: 450px; } }
-      @media screen and (max-width: 680px) {
-        .grid-section .grid-1 .grid-item img {
-          width: 400px; } }
-      @media screen and (max-width: 350px) {
-        .grid-section .grid-1 .grid-item img {
-          width: 270px; } }
+      .grid-section .grid-1 .grid-item img {
+        user-select: none; }
+        @media screen and (max-width: 970px) {
+          .grid-section .grid-1 .grid-item img {
+            width: 450px; } }
+        @media screen and (max-width: 680px) {
+          .grid-section .grid-1 .grid-item img {
+            width: 400px; } }
+        @media screen and (max-width: 350px) {
+          .grid-section .grid-1 .grid-item img {
+            width: 220px; } }
   .grid-section .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
