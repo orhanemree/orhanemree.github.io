@@ -201,7 +201,7 @@ header {
             width: 400px; } }
         @media screen and (max-width: 360px) {
           .grid-section .grid-1 .grid-item img {
-            width: 220px; } }
+            width: 300px; } }
   .grid-section .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
