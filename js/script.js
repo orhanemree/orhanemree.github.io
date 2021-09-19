@@ -5,6 +5,7 @@ console.log("script.js loaded successfully");
 const texts = {
     tr: {
         about: "Merhaba ben Orhan Emre. Yazılımı seviyorum ve büyük bir yazılımcı olmak istiyorum. Sanırım kendime self-taught developer diyebilirim. UI / UX tasarımları yaparım, kod yazarım ve içerik oluştururum. Benimle sosyal medya hesaplarımdan iletişime geçebilirsiniz.",
+        button1: "Blog'umu ziyaret edin",
         header1: "Yetenekler",
         header2: "Projeler",
         lang1: "İngilizce",
@@ -16,6 +17,7 @@ const texts = {
     },
     en: {
         about: "Hi I am Orhan Emre. I love programming and I want to be a big programmer. I think I can call myself a self-taught developer. I design UI / UXs, write codes and create contents. You can contact me with my social accounts.",
+        button1: "Visit my Blog",
         header1: "Skills",
         header2: "Projects",
         lang1: "English",
