@@ -6,8 +6,8 @@ const texts = {
     tr: {
         about: "Merhaba ben Orhan Emre. Yazılımı seviyorum ve büyük bir yazılımcı olmak istiyorum. Sanırım kendime self-taught developer diyebilirim. UI / UX tasarımları yaparım, kod yazarım ve içerik oluştururum. Benimle sosyal medya hesaplarımdan iletişime geçebilirsiniz.",
         button1: "Blog'umu ziyaret edin",
-        header1: "Yetenekler",
-        header2: "Projeler",
+        header1: "Yeteneklerim",
+        header2: "Projelerim",
         lang1: "İngilizce",
         description1: "HTML, CSS ve JavaScipt'de yazıldı. Rastgele tavsiyeler için Advice Slip JSON API kullanır.",
         lang2: "Türkçe",
@@ -18,8 +18,8 @@ const texts = {
     en: {
         about: "Hi I am Orhan Emre. I love programming and I want to be a big programmer. I think I can call myself a self-taught developer. I design UI / UXs, write codes and create contents. You can contact me with my social accounts.",
         button1: "Visit my Blog",
-        header1: "Skills",
-        header2: "Projects",
+        header1: "My Skills",
+        header2: "My Projects",
         lang1: "English",
         description1: "Written in HTML, CSS and JavaScript. Uses Advice Slip JSON API for random advices.",
         lang2: "Turkish",
