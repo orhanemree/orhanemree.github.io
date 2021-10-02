@@ -12,6 +12,46 @@ body {
   background-color: #000;
   color: #c2c2c2; }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; }
+  .social-icons .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all; }
+    .social-icons .social-icon:hover {
+      opacity: .7; }
+
+.button-links a {
+  margin-right: 15px;
+  color: #c2c2c2;
+  border: 1px solid #c2c2c2;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all; }
+  .button-links a:not(.ataturk-kosesi):hover {
+    background-color: #c2c2c2;
+    color: #000; }
+  .button-links a.ataturk-kosesi {
+    border: none; }
+    .button-links a.ataturk-kosesi:hover {
+      text-decoration: underline; }
+
 header {
   width: 100%;
   min-height: 100vh;
@@ -92,29 +132,14 @@ header {
         header .hero-section .profile-pic {
           width: 200px;
           height: 200px; } }
-    header .hero-section .social-icons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px; }
+    @media screen and (max-width: 740px) {
       header .hero-section .social-icons .social-icon {
-        width: 30px;
-        height: 30px;
-        transition: 300ms all;
-        -webkit-transition: 300ms all;
-        -moz-transition: 300ms all;
-        -ms-transition: 300ms all;
-        -o-transition: 300ms all; }
-        @media screen and (max-width: 740px) {
-          header .hero-section .social-icons .social-icon {
-            width: 25px;
-            height: 25px; } }
-        @media screen and (max-width: 360px) {
-          header .hero-section .social-icons .social-icon {
-            width: 20px;
-            height: 20px; } }
-        header .hero-section .social-icons .social-icon:hover {
-          opacity: .7; }
+        width: 25px;
+        height: 25px; } }
+    @media screen and (max-width: 360px) {
+      header .hero-section .social-icons .social-icon {
+        width: 20px;
+        height: 20px; } }
     header .hero-section .about-section {
       max-width: 650px;
       width: auto;
@@ -133,21 +158,8 @@ header {
         line-height: 40px;
         margin-bottom: 40px; }
       header .hero-section .about-section .button-links a {
-        margin-right: 15px;
-        color: #c2c2c2;
-        border: 1px solid #c2c2c2;
         padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        transition: 300ms all;
-        -webkit-transition: 300ms all;
-        -moz-transition: 300ms all;
-        -ms-transition: 300ms all;
-        -o-transition: 300ms all; }
+        font-size: 16px; }
         @media screen and (max-width: 970px) {
           header .hero-section .about-section .button-links a {
             padding: 7px 17px;
@@ -159,9 +171,6 @@ header {
           header .hero-section .about-section .button-links a {
             padding: 5px 15px;
             font-size: 11px; } }
-        header .hero-section .about-section .button-links a:hover {
-          background-color: #c2c2c2;
-          color: #000; }
 
 .grid-section {
   margin: 50px 0;
@@ -314,3 +323,45 @@ header {
 
 ::-webkit-scrollbar {
   display: none; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background-color: #191919;
+  padding: 0 20px; }
+  nav .button-links a {
+    padding: 7px 15px;
+    font-size: 15px; }
+    @media screen and (max-width: 740px) {
+      nav .button-links a {
+        padding: 5px 10px;
+        font-size: 13px;
+        margin-right: 5px; } }
+
+.container {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px; }
+  .container #image {
+    max-height: 50vh;
+    box-shadow: 0 0 20px 2px #c2c2c27e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+  .container #quote {
+    width: 700px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 20px; }

@@ -16,6 +16,57 @@ body{
     color: $color;
 }
 
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .social-icon{
+        width: 30px;
+        height: 30px;
+        transition: 300ms all;
+        -webkit-transition: 300ms all;
+        -moz-transition: 300ms all;
+        -ms-transition: 300ms all;
+        -o-transition: 300ms all;
+        &:hover{
+            opacity: .7;
+        }
+    }
+}
+
+.button-links{
+    a{
+        margin-right: 15px;
+        color: $color;
+        border: 1px solid $color;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        transition: 300ms all;
+        -webkit-transition: 300ms all;
+        -moz-transition: 300ms all;
+        -ms-transition: 300ms all;
+        -o-transition: 300ms all;
+        &:not(.ataturk-kosesi):hover{
+            background-color: $color;
+            color: $background-color;
+        }
+        &.ataturk-kosesi{
+            border: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// home page
+
 header{
     width: 100%;
     min-height: 100vh;
@@ -105,18 +156,7 @@ header{
             }
         }
         .social-icons{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
             .social-icon{
-                width: 30px;
-                height: 30px;
-                transition: 300ms all;
-                -webkit-transition: 300ms all;
-                -moz-transition: 300ms all;
-                -ms-transition: 300ms all;
-                -o-transition: 300ms all;
                 @media screen and (max-width: 740px){
                     width: 25px;
                     height: 25px;
@@ -124,9 +164,6 @@ header{
                 @media screen and (max-width: 360px){
                     width: 20px;
                     height: 20px;
-                }
-                &:hover{
-                    opacity: .7;
                 }
             }
         }
@@ -150,21 +187,8 @@ header{
             }
             .button-links{
                 a{
-                    margin-right: 15px;
-                    color: $color;
-                    border: 1px solid $color;
                     padding: 10px 20px;
                     font-size: 16px;
-                    border-radius: 5px;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    -ms-border-radius: 5px;
-                    -o-border-radius: 5px;
-                    transition: 300ms all;
-                    -webkit-transition: 300ms all;
-                    -moz-transition: 300ms all;
-                    -ms-transition: 300ms all;
-                    -o-transition: 300ms all;
                     @media screen and (max-width: 970px){
                         padding: 7px 17px;
                         font-size: 14px;
@@ -175,11 +199,7 @@ header{
                     @media screen and (max-width: 360px){
                         padding: 5px 15px;
                         font-size: 11px;
-                    }
-                    &:hover{
-                        background-color: $color;
-                        color: $background-color;
-                    }       
+                    }     
                 }
             }
         }
@@ -358,4 +378,56 @@ header{
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+
+// api page
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: $secondary-gray;
+    padding: 0 20px;
+    .button-links{
+        a{
+            padding: 7px 15px;
+            font-size: 15px;
+            @media screen and (max-width: 740px){
+                padding: 5px 10px;
+                font-size: 13px;
+                margin-right: 5px;
+            }   
+        }
+    }
+}
+
+.container{
+    background-color: $background-color;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    #image{
+        max-height: 50vh;
+        box-shadow: 0 0 20px 2px #c2c2c27e;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #quote{
+        width: 700px;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
 }

@@ -6,9 +6,12 @@
   "scripts": {
     "compile:sass": "node-sass scss/style.scss css/style.css -w"
   },
-  "author": "",
+  "author": "Orhan Emre",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0"
   }
 }
