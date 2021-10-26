@@ -14,9 +14,12 @@ const texts = {
         description2: "Projelerle Python'ın amacı python öğrenen Türk geliştiricilere ücretsiz bir proje arşivi oluşturmaktır.",
         lang3: "Türkçe",
         description3: "Atatürk'ün 180'den fazla sözü ile oluşturulmuş bir JSON API.",
+        lang3: "Türkçe",
+        description3: "Atatürk'ün 100 farklı resmi ile oluşturulmuş bir JSON API.",
         gh1: "GitHub'da görün",
         gh2: "GitHub'da görün",
         gh3: "GitHub'da görün",
+        gh4: "GitHub'da görün",
     },
     en: {
         about: "Hi I am Orhan Emre. I love programming and I want to be a big programmer. I think I can call myself a self-taught developer. I design UI / UXs, write codes and create contents. You can contact me with my social accounts.",
@@ -29,9 +32,12 @@ const texts = {
         description2: 'The purpose of "Projelerle Python" is to create a free project archive for Turkish developers learning python.',
         lang3: "Turkish",
         description3: "A JSON API created with more than 180 quotes of Atatürk.",
+        lang3: "Turkish",
+        description3: "A JSON API created with 100 images of Atatürk.",
         gh1: "View on GitHub",
         gh2: "View on GitHub",
         gh3: "View on GitHub",
+        gh4: "View on GitHub",
     }
 }
 const langSelector = document.querySelector("input.lang-selector");
