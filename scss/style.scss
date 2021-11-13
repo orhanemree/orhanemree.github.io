@@ -174,7 +174,7 @@ header{
         @media screen and (max-width: 740px){
             grid-template-columns: 1fr 1fr 1fr;
         }
-        @media screen and (max-width: 360px){
+        @media screen and (max-width: 420px){
             grid-template-columns: 1fr 1fr;
         }
         li{
@@ -188,6 +188,9 @@ header{
                 @media screen and (max-width: 740px){
                     font-size: 18px;
                 }
+                @media screen and (max-width: 360px){
+                    font-size: 15px;
+                }
             }
             svg{
                 width: 40px;
@@ -196,6 +199,9 @@ header{
                 }
                 @media screen and (max-width: 740px){
                     width: 30px;
+                }
+                @media screen and (max-width: 360px){
+                    width: 26px;
                 }
                 path.dark{
                     fill: $color;

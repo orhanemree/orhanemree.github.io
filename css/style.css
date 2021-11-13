@@ -147,7 +147,7 @@ header {
   @media screen and (max-width: 740px) {
     .technologies ul {
       grid-template-columns: 1fr 1fr 1fr; } }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 420px) {
     .technologies ul {
       grid-template-columns: 1fr 1fr; } }
   .technologies ul li {
@@ -161,6 +161,9 @@ header {
       @media screen and (max-width: 740px) {
         .technologies ul li span {
           font-size: 18px; } }
+      @media screen and (max-width: 360px) {
+        .technologies ul li span {
+          font-size: 15px; } }
     .technologies ul li svg {
       width: 40px; }
       @media screen and (max-width: 970px) {
@@ -169,6 +172,9 @@ header {
       @media screen and (max-width: 740px) {
         .technologies ul li svg {
           width: 30px; } }
+      @media screen and (max-width: 360px) {
+        .technologies ul li svg {
+          width: 26px; } }
       .technologies ul li svg path.dark {
         fill: #ffffffd0; }
 
