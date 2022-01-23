@@ -1,18 +1,22 @@
 {
-  "name": "orhanemree.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "personal-portfolio-website",
+  "version": "0.0.0",
   "scripts": {
-    "compile:sass": "node-sass scss/style.scss css/style.css -w"
-  },
-  "author": "Orhan Emre",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^6.0.1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "fetch": "^1.1.0",
-    "node-fetch": "^3.1.0"
+    "axios": "^0.25.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13",
+    "vite": "^2.7.2"
   }
 }
