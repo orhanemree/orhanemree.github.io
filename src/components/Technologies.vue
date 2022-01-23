@@ -26,7 +26,7 @@ export default {
             .replace("-", "")
             .replace(".", "")
             .toLowerCase()
-            return `/src/assets/icons/${img}.svg`
+            return new URL(`/src/assets/icons/${img}.svg`, import.meta.url);
         }
     }
 }
