@@ -2,7 +2,7 @@
     <header class="h-screen p-8 flex items-center justify-center shrink-0">
         <div class="flex items-center justify-center sm:gap-6 gap-3 flex-col">
             <div class="w-100">
-                <img class="sm:mb-8 mb-5 sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]" src="../assets/profile.png" alt="Orhan Emre">
+                <img class="sm:mb-8 mb-5 sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]" src="../assets/profile.png" alt="Orhan Emre Dikicigil">
                 <div class="flex items-center justify-center gap-6">
                     <a class="transition opacity-70 hover:opacity-100 sm:w-8 w-6" href="https://github.com/orhanemree">
                         <img class="w-full" src="../assets/icons/github.svg" alt="github">
